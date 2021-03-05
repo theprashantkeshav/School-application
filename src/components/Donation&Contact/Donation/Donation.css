@@ -1,0 +1,149 @@
+.d-img {
+  width: 100%;
+  height: auto;
+}
+
+.content3 {
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+.content3 .t {
+  color: #163269;
+  font-size: 24px;
+}
+
+.content3,
+.quote .name {
+  color: #747474;
+}
+
+.content3 .name {
+  margin-left: 360px;
+}
+
+.btn4 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  background-color: #3db166;
+  margin: 8px;
+  padding: 13px 20px;
+  height: 60px;
+  width: 40%;
+  border-radius: 5px;
+  text-align: center;
+  border: 0px;
+}
+
+.btn4:hover {
+  background-color: #192f59;
+  color: #fff;
+}
+
+@media (min-width: 1300px) {
+  .donation {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .d-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content3 {
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 60px;
+  }
+
+  .content3 .t {
+    color: #163269;
+    font-size: 28px;
+  }
+
+  .content3 .quote {
+    font-size: 19px;
+  }
+
+  .content3 .name {
+    margin-left: 410px;
+  }
+
+  .btn4 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    background-color: #3db166;
+    margin: 4px;
+
+    padding: 13px 20px;
+    height: 60px;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .donation {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .d-img {
+    width: 400px;
+    height: 250px;
+  }
+
+  .content3 {
+    text-align: left;
+    margin-top: -60px;
+  }
+
+  .content3 .t {
+    color: #163269;
+    font-size: 28px;
+  }
+
+  .content3 .quote {
+    font-size: 19px;
+  }
+
+  .content3 .name {
+    margin-left: 370px;
+  }
+
+  .btn4 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    background-color: #3db166;
+    margin: 8px;
+    padding: 13px 20px;
+    height: 60px;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .btn4 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    background-color: #3db166;
+    margin: 8px;
+    padding: 13px 20px;
+    height: 60px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+  }
+}

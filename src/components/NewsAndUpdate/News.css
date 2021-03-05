@@ -1,0 +1,139 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.news {
+  margin-top: 50px;
+  margin-left: 55px;
+  margin-bottom: 70px;
+}
+
+.n-header {
+  margin-bottom: 35px;
+  margin-left: 33px;
+}
+
+.n-header h1 {
+  font-size: 24px;
+  color: #163269;
+}
+
+.n-header h1::after {
+  content: " ";
+  position: absolute;
+  width: 75%;
+  height: 0.15rem;
+  background: #e6e6e6;
+  top: 14px;
+  left: 228px;
+}
+
+.news .read-n {
+  color: #3db166;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.n-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.n-img {
+  overflow: hidden;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.n-content {
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.n-date {
+  font-size: 13px;
+  color: #3db166;
+  letter-spacing: 1px;
+}
+
+.n-title {
+  font-size: 17px;
+  color: #192f59;
+  margin-top: -10px;
+}
+
+@media (max-width: 720px) {
+  .n-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 0 30px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1300px) {
+  .news {
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .n-header h1 {
+    font-size: 28px;
+  }
+
+  .news .read-n {
+    font-size: 16px;
+  }
+
+  .n-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    grid-column-gap: 5%;
+    overflow: hidden;
+  }
+
+  .n-date {
+    font-size: 14px;
+  }
+
+  .n-title {
+    font-size: 17px;
+  }
+
+  .n-header {
+    margin-bottom: 35px;
+    margin-left: 33px;
+  }
+
+  .n-header h1::after {
+    content: " ";
+    position: absolute;
+    width: 85%;
+    height: 0.15rem;
+    background: #e6e6e6;
+    top: 16px;
+    left: 252px;
+  }
+}
